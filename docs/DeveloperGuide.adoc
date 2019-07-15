@@ -434,7 +434,6 @@ You should only modify them if you need greater control over the site's layout t
 The SE-EDU team does not provide support for modified template files.
 ====
 
-[[Testing]]
 == Testing
 
 === Running Tests
