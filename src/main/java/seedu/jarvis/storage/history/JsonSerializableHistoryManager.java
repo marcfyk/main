@@ -22,8 +22,6 @@ import seedu.jarvis.storage.history.commands.exceptions.InvalidCommandToJsonExce
 public class JsonSerializableHistoryManager implements JsonAdapter<HistoryManager> {
 
     public static final String MESSAGE_ERROR_CONVERTING_HISTORY_MANAGER = "Error converting HistoryManager";
-    public static final String MESSAGE_INVALID_COMMAND = "Unknown Command";
-    public static final String MESSAGE_COMMAND_MISMATCH = "Error mapping command";
 
     private final List<JsonAdaptedCommand> executedCommands = new ArrayList<>();
     private final List<JsonAdaptedCommand> inverselyExecutedCommands = new ArrayList<>();
